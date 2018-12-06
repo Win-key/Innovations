@@ -1,3 +1,8 @@
+//java side code
+Cookie cookie = new Cookie("DownloadCompleteChecker", "1");
+res.addCookie(cookie);
+
+//js side code
 var downloadTimer;  // reference to timer object
 
 function startDownloadChecker(buttonId, imageId, timeout) {
